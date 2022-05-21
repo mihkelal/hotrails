@@ -1,24 +1,5 @@
-# README
+# Hotrails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following along the tutorial on https://www.hotrails.dev/.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> Learn how to create modern, single-page, reactive web applications with Ruby on Rails 7 without writing any custom JavaScript code.
