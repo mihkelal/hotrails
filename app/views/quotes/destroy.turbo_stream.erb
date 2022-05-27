@@ -1,8 +1,2 @@
 <%= turbo_stream.remove @quote %>
 <%= render_turbo_stream_flash_messages %>
-
-<% if current_company.quotes.none? %>
-  <%= turbo_stream.update Quote.new do %>
-    <%= render 'empty_state' %>
-  <% end %>
-<% end %>
