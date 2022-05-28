@@ -5,5 +5,7 @@ class LineItem < ApplicationRecord
   validates :quantity, presence: true, numericality: { only_integer: true, greater_than: 0 }
   validates :unit_price, presence: true, numericality: { greater_than: 0 }
 
+  scope :ordered, -> { order(id: :asc) }
+
   delegate :quote, to: :line_item_date
 end
